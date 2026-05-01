@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Article() {
+function Article() {
   return (
     <article>
         <h3 className='title'></h3>
@@ -9,3 +9,5 @@ export default function Article() {
     </article>
   )
 }
+
+export default Article

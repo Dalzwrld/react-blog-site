@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function ArticleList() {
+function ArticleList() {
   return (
     <main>
         <Article />
     </main>
   )
 }
+
+export default ArticleList
