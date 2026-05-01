@@ -1,8 +1,8 @@
 import React from "react";
 import blogData from "../data/blog";
-import Header from "./components/header";
-import About from "./components/about";
-import articleList from "./components/article-list";
+import Header from "./header";
+import About from "./about";
+import ArticleList from "./article-list";
 
 console.log(blogData);
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
-      <Article />
+      <ArticleList />
     </div>
   );
 }
