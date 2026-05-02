@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo";
 import Header from "./Header";
 import About from "./About";
-import ArticleList from "./Article-list";
+import ArticleList from "./ArticleList";
 import Article from "./Article";
 
 import blogData from "../data/blog";
