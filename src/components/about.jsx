@@ -1,11 +1,15 @@
 import React from 'react'
+import logo from "../assets/logo";
+import blogData from "../data/blog";
 
-function About() {
+console.log(blogData);
+
+function About({ image, about }) {
   return (
     <aside>
-        <img src="{image}" alt="blog logo" />
-        <p className='about'>
-
+        <img src={image} alt="blog logo" />
+        <p>
+            {about}
         </p>
     </aside>
   )
