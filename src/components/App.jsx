@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../assets/logo";
-import Header from "../components/header";
-import About from "../components/about";
-import ArticleList from "../components/article-list";
-import Article from "../components/article";
+import Header from "./Header";
+import About from "./About";
+import ArticleList from "./Article-list";
+import Article from "./Article";
 
 import blogData from "../data/blog";
 console.log(blogData);
@@ -14,7 +14,7 @@ function App() {
       <Header name={blogData.name}/>
       <About image={blogData.image} />
       <ArticleList >
-        <Article title={blogData.title} date={blogData.date} preview={blogData.preview} />
+        <Article title={post.title} date={post.date} preview={post.preview} />
       </ArticleList>
     </div>
   );
